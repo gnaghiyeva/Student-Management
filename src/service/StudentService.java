@@ -18,4 +18,21 @@ public class StudentService {
     public List<Student> getAllStudents(){
         return students;
     }
+
+    public boolean deleteStudent(int id) {
+        if (students.isEmpty()) {
+            System.out.println("Heç bir tələbə yoxdur . ");
+            return false;
+        } else {
+            for (int i = 0; i < students.size(); i++) {
+                if (students.get(i).getId() == id) {
+                    students.remove(i);
+                    System.out.println("Tələbə uğurla silindi.");
+                    return true;
+                }
+            }
+            System.out.println("Bu ID-li tələbə yoxdur.");
+            return false;
+        }
+    }
 }

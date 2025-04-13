@@ -22,6 +22,8 @@ public class StudentManager {
                     addStudent();
                 case 2:
                     showAllStudents();
+                case 3:
+                    deleteStudent();
 
             }
         }while (choice!=0);
@@ -32,6 +34,7 @@ public class StudentManager {
         System.out.println("""
                 1. Yeni tələbə əlavə et
                 2. Bütün tələbələri göstər
+                3. Tələbəni sil
                 """);
     }
 
@@ -65,5 +68,15 @@ public class StudentManager {
                             student.getAge() + " yaş"));
         }
 
+    }
+
+    public void deleteStudent(){
+        while (true){
+            int id = InputHelper.readNumber("Hansı id li tələbəni silmək istəyirsən ?");
+            boolean deleted =  studentService.deleteStudent(id);
+            if(deleted){
+                break;
+            }
+        }
     }
 }
