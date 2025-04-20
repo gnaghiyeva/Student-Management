@@ -234,6 +234,9 @@
       <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/weteam.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/wetitle.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/update.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../meta4fashion/.vscode/settings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../meta4fashion/frontend" beforeDir="false" />
     </list>
@@ -250,11 +253,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2vZo7rl6v7pKa6Lr1X01AjGyl9F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -265,7 +268,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "ShowAddStudents",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -293,7 +296,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744361797027</updated>
-      <workItem from="1744361798110" duration="4339000" />
+      <workItem from="1744361798110" duration="4584000" />
+      <workItem from="1744559626347" duration="2451000" />
     </task>
     <servers />
   </component>
