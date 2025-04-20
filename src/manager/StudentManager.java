@@ -30,6 +30,8 @@ public class StudentManager {
                 case 4:
                     updateStudent();
                     break;
+                case 5:
+                    findStudent();
 
             }
         }while (choice!=0);
@@ -42,6 +44,7 @@ public class StudentManager {
                 2. Bütün tələbələri göstər
                 3. Tələbəni sil
                 4. Tələbəni güncəllə
+                5. Tələbəni tap
                 """);
     }
 
@@ -99,5 +102,10 @@ public class StudentManager {
                 break;
             }
         }
+    }
+
+    public void findStudent(){
+        String name = InputHelper.readText("Hansi adli sagirid axtarmaq steyirsen");
+        studentService.findByName(name);
     }
 }

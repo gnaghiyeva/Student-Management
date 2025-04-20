@@ -69,4 +69,15 @@ public class Student {
         this.subjects = subjects;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", age=" + age +
+                ", subjects=" + subjects +
+                ", gpa=" + gpa +
+                '}';
+    }
 }
