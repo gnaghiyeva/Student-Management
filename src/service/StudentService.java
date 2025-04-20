@@ -101,4 +101,16 @@ public class StudentService {
                "Fənnlər: "+ student.getSubjects()+" "+ "GPA: "+student.getGpa());
         return true;
     }
+
+    public void findByName(String searchingName){
+//        students.stream().filter(name->name.equals(searchingName)).collect(Collectors.toList());
+      List<Student> filteredStudents =  students.stream().filter(student -> student.getName().equals(searchingName)).collect(Collectors.toList());
+      if(filteredStudents.isEmpty()){
+          System.out.println("Tələbə tapılmadı");
+      }
+      else {
+//          filteredStudents.forEach(findedStudents-> System.out.println(findedStudents));
+          filteredStudents.forEach(System.out::println);
+      }
+    }
 }
