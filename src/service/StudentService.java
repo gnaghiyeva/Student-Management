@@ -3,10 +3,7 @@ package service;
 import helper.InputHelper;
 import model.Student;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class StudentService {
@@ -112,5 +109,11 @@ public class StudentService {
 //          filteredStudents.forEach(findedStudents-> System.out.println(findedStudents));
           filteredStudents.forEach(System.out::println);
       }
+    }
+
+    public void orderStudents(){
+        List<Student> orderedStudents = students.stream().sorted(Comparator.comparing(student -> student.getGpa())).toList();
+        orderedStudents.forEach(System.out::println);
+gitgit 
     }
 }
