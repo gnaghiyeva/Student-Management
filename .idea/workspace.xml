@@ -1,14 +1,256 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="74d13ca5-6cfa-48a6-a2f6-b92bcbf65afc" name="Changes" comment="" />
+    <list default="true" id="74d13ca5-6cfa-48a6-a2f6-b92bcbf65afc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/.gitlab-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/context/PathnameContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/i18n.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/az/about.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/az/blog.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/az/blog_detail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/az/common.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/az/esc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/az/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/az/love.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/az/love_detail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/en/about.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/en/blog.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/en/blog_detail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/en/common.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/en/esc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/en/home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/en/love.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/locales/en/love_detail.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/_app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/_document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/api/agent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/api/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/api/hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/blog/[slug].js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/Burger.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/Footer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/Header.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/blog/BlogCategory.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/blog/BlogHero.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/blog/BlogPagination.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/blog/BlogProduct.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/cards/CardMain.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/esc/EscModel.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/esc/EscValues.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/home/Hero.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/love/LoveCategory.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/love/LoveHero.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/love/LovePagination.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/love/LoveProduct.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/we/WeAwards.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/we/WeComanda.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/we/WeCounter.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/we/WeCustomers.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/we/WeHeader.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/we/WeMainTeam.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/we/WeTeam.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/components/we/WeTitle.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/esc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/love.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/pages/love/[slug].js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/BingSiteAuth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/404.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animation1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animation11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animation12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animation13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animation2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animation3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animation3_test.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animation4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animation5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animation6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animation7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animation8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/animetest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/animation/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/awards/award.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/burger/burger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/burger/nav.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/card/card.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/card/card1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/card/card2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/customers/customers1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/customers/customers2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/customers/customers3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/customers/customers4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/customers/customers5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/customers/customers6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/header/menuBlack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/header/menuWhite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/language/az.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/language/en.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/logo/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/logo/logoblack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/team/Azer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/team/Mina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/assets/team/MinaBlack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/codex/YelloAD-Corporate-Codex.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/fonts/Nofex-1GLBv.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/fonts/euclid -Circular-A-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/fonts/euclid-Circular-A-Bold-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/fonts/euclid-Circular-A-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/fonts/euclid-Circular-A-Light-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/fonts/euclid-Circular-A-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/fonts/euclid-Circular-A-Medium-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/fonts/euclid-Circular-A-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/fonts/euclid-Circular-A-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/fonts/euclid-Circular-A-SemiBold-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/fonts/euclid-Circular-A-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/google4c3a4af4c1f25d45.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/google68a2ac759684ab4c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/google8b7bf51fc8287a5a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/iptv/tv.m3u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/iptv/tv2.m3u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/next.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/rss.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/fb@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/g@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/group@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/in@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/instagramm@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/messenger@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/neon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/sc@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/tw@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/signature/yt@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/28may/28may.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/28may/Facebook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/28may/Instagram.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/28may/LinkedIn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/28may/WhatsApp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/28may/YouTube.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/fb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/g+.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/icons/S.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/icons/S@2x.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/icons/y.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/icons/y@2x.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/ins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/legalize/Instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/legalize/bgaz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/legalize/bgen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/legalize/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/legalize/legalizelogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/legalize/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/legalize/twitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/legalize/whatsapp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/yello/dragon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/yello/facebook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/yello/instagram.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/yello/linkedin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/yello/telegram.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/yello/whatsapp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/yello/yelload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/newyear_mail/yello/youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/pakxalca/facebook.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/pakxalca/instagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/pakxalca/linkedln.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/pakxalca/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/pakxalca/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/pakxalca/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/pakxalca/site.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/pin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/sc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/tw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yello_mail_gif/coin.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yello_mail_gif/eye.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yello_mail_gif/folder.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yello_mail_gif/hello.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yello_mail_gif/lamp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yello_mail_gif/precomp.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yello_mail_gif/scooter.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yello_mail_gif/top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yello_mail_icon/Yello_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yello_mail_icon/geo-alt-fill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yello_mail_icon/globe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/sos/yello_mail_icon/telephone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/uzu2092ydjnj0y8r99c5u0y3fztv85.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/voice/hover.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/workplacevbqCeMXFVCvGc8E.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/yandex_39464038f7e7344e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/yandex_4cecef4dfb42dee6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/yandex_f84181bee9538960.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/public/yelloFav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/readme.tst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/404.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/Home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/blog/blogcategory.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/blog/blogdetail.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/blog/bloghero.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/blog/blogproduct.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/burger.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/cards/cardMain.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/esc/escmodel.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/esc/escvalue.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/footer.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/globals.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/header.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/home/hero.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/home/home.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/loading.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/love/lovecategory.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/love/lovedetail.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/love/lovehero.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/love/lovepagination.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/love/loveproduct.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/weawards.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/wecomanda.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/wecounter.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/wecustomers.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/weheader.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/wemainteam.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/weteam.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/wetitle.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/update.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../meta4fashion/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../meta4fashion/frontend" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -24,8 +266,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Gulnar/Desktop/New folder (3)/StudentManagement/src/Main.java",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -45,22 +292,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744361797027</updated>
-      <workItem from="1744361798110" duration="2000" />
+      <workItem from="1744361798110" duration="458000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
