@@ -235,7 +235,6 @@
       <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/wetitle.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/update.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manager/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/StudentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../meta4fashion/.vscode/settings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../meta4fashion/frontend" beforeDir="false" />
@@ -268,7 +267,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ShowAddStudents",
+    "git-widget-placeholder": "UpdateStudent",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -297,7 +296,8 @@
       <option name="presentableId" value="Default" />
       <updated>1744361797027</updated>
       <workItem from="1744361798110" duration="4584000" />
-      <workItem from="1744559626347" duration="2451000" />
+      <workItem from="1744559626347" duration="3716000" />
+      <workItem from="1744609667701" duration="8681000" />
     </task>
     <servers />
   </component>

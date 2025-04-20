@@ -1,9 +1,13 @@
 package service;
 
+import helper.InputHelper;
 import model.Student;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class StudentService {
     List<Student> students = new ArrayList<>();
@@ -34,5 +38,67 @@ public class StudentService {
             System.out.println("Bu ID-li tələbə yoxdur.");
             return false;
         }
+    }
+
+    public Student getStudentByID(int id){
+        for(Student student:students){
+            if(student.getId()==id){
+                return student;
+            }
+        }
+        return null;
+    }
+
+    public boolean updateStudent(int id){
+        Student student = getStudentByID(id);
+        if (student==null){
+            System.out.println("Bu ID-li tələbə tapılmadı.");
+            return false;
+        }
+        System.out.println("Əgər hər hansı sahəni dəyişmək istəmirsənsə, sadəcə Enter bas.");
+
+        String name = InputHelper.readText("Yeni ad ("+student.getName()+"): ");
+        if (!name.isBlank()) {
+            student.setName(name);
+        }
+
+        String surname = InputHelper.readText("Yeni soyad ("+student.getSurname()+"): ");
+        if(!surname.isBlank()){
+            student.setSurname(surname);
+        }
+
+        String age = InputHelper.readText("Yeni yaş (" + student.getAge() + "): ");
+        if (!age.isBlank()) {
+            try {
+                int newAge = Integer.parseInt(age);
+                student.setAge(newAge);
+            } catch (NumberFormatException e) {
+                System.out.println("Yaş rəqəm formatında deyil. Keçildi.");
+            }
+        }
+
+        String subjectsInput = InputHelper.readText("Yeni fənlər (" + student.getSubjects() + "): ");
+
+        if (subjectsInput != null && !subjectsInput.isBlank()) {
+            List<String> subjects = Arrays.stream(subjectsInput.split(","))
+                    .map(String::trim)
+                    .filter(s -> !s.isEmpty())
+                    .collect(Collectors.toList());
+            student.setSubjects(subjects);
+        }
+
+        String gpa = InputHelper.readText("Yeni gpa ("+ student.getGpa() + "): ");
+        if (!gpa.isBlank()){
+            try {
+               double newGpa = Double.parseDouble(gpa);
+               student.setGpa(newGpa);
+            }catch (NumberFormatException e){
+                System.out.println("GPA düzgün formatda deyil. Keçildi");
+            }
+        }
+        System.out.println("Tələbə məlumatları aşağıdakı kimi güncəlləndi" +
+                student.getName()+" "+student.getSurname() +"-" +student.getAge() +" // "+"\n"+
+               "Fənnlər: "+ student.getSubjects()+" "+ "GPA: "+student.getGpa());
+        return true;
     }
 }

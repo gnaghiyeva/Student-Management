@@ -20,10 +20,16 @@ public class StudentManager {
             switch (choice){
                 case 1:
                     addStudent();
+                    break;
                 case 2:
                     showAllStudents();
+                    break;
                 case 3:
                     deleteStudent();
+                    break;
+                case 4:
+                    updateStudent();
+                    break;
 
             }
         }while (choice!=0);
@@ -35,6 +41,7 @@ public class StudentManager {
                 1. Yeni tələbə əlavə et
                 2. Bütün tələbələri göstər
                 3. Tələbəni sil
+                4. Tələbəni güncəllə
                 """);
     }
 
@@ -75,6 +82,20 @@ public class StudentManager {
             int id = InputHelper.readNumber("Hansı id li tələbəni silmək istəyirsən ?");
             boolean deleted =  studentService.deleteStudent(id);
             if(deleted){
+                break;
+            }
+        }
+    }
+
+    public void updateStudent(){
+        if (studentService.getAllStudents().isEmpty()) {
+            System.out.println("Heç bir tələbə yoxdur.");
+            return;
+        }
+        while (true) {
+            int id = InputHelper.readNumber("Hansı ID-li tələbəni güncəlləmək istəyirsən?");
+            boolean updated = studentService.updateStudent(id);
+            if (updated) {
                 break;
             }
         }
