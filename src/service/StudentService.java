@@ -114,6 +114,6 @@ public class StudentService {
     public void orderStudents(){
         List<Student> orderedStudents = students.stream().sorted(Comparator.comparing(student -> student.getGpa())).toList();
         orderedStudents.forEach(System.out::println);
-gitgit 
+
     }
 }
