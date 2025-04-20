@@ -32,6 +32,10 @@ public class StudentManager {
                     break;
                 case 5:
                     findStudent();
+                    break;
+                case 6:
+                    orderStudents();
+
 
             }
         }while (choice!=0);
@@ -45,6 +49,7 @@ public class StudentManager {
                 3. Tələbəni sil
                 4. Tələbəni güncəllə
                 5. Tələbəni tap
+                6. GPA uyğun tələbələri sırala
                 """);
     }
 
@@ -107,5 +112,9 @@ public class StudentManager {
     public void findStudent(){
         String name = InputHelper.readText("Hansi adli sagirid axtarmaq steyirsen");
         studentService.findByName(name);
+    }
+
+    public void orderStudents(){
+        studentService.orderStudents();
     }
 }
