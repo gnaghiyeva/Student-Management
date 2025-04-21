@@ -128,4 +128,13 @@ public class StudentService {
         }
 
     }
+
+    public void GroupStudentsBySubject(String title){
+        List<Student> groupedStudents = students.stream().filter(student -> student.getSubjects().contains(title)).collect(Collectors.toList());
+        if(groupedStudents.isEmpty()){
+            System.out.println("Tələbə tapılmadı.");
+        }else {
+            groupedStudents.forEach(System.out::println);
+        }
+    }
 }

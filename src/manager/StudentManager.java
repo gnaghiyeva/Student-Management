@@ -37,6 +37,8 @@ public class StudentManager {
                     orderStudents();
                 case 7:
                     findOldStudent();
+                case 8:
+                    groupedStudents();
 
 
             }
@@ -53,6 +55,7 @@ public class StudentManager {
                 5. Tələbəni tap
                 6. GPA uyğun tələbələri sırala
                 7. Ən yaşlı tələbəni tap
+                8. Tələbələri fənnə görə qruplaşdır
                 """);
     }
 
@@ -127,5 +130,10 @@ public class StudentManager {
         }else {
             studentService.oldStudent();
         }
+    }
+
+    public void groupedStudents(){
+        String title = InputHelper.readText("Hansı fənnə görə qruplaşdırmaq istəyirsiniz ?");
+        studentService.GroupStudentsBySubject(title);
     }
 }
