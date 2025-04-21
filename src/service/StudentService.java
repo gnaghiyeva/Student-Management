@@ -116,4 +116,16 @@ public class StudentService {
         orderedStudents.forEach(System.out::println);
 
     }
+
+    public void oldStudent(){
+        Optional<Student> oldStudent = students.stream().max(Comparator.comparing(Student::getAge));
+
+        if(oldStudent.isPresent()){
+            Student student = oldStudent.get();
+            System.out.println(student.getName() + " "+ student.getSurname() + " "+ student.getAge() + "yaş");
+        }else {
+            System.out.println("Tələbə siyahısı boşdur");
+        }
+
+    }
 }

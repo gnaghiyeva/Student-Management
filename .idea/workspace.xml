@@ -234,6 +234,8 @@
       <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/weteam.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/styles/we/wetitle.module.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../MyBackupYello/gitsiz/frontend/update.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/StudentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../meta4fashion/.vscode/settings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../meta4fashion/frontend" beforeDir="false" />
@@ -262,22 +264,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "SortingGpa",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Gulnar/Desktop/New folder (3)/StudentManagement/src/Main.java",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;SortingGpa&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Gulnar/Desktop/New folder (3)/StudentManagement/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -297,7 +299,8 @@
       <workItem from="1744361798110" duration="4584000" />
       <workItem from="1744559626347" duration="3716000" />
       <workItem from="1744609667701" duration="9159000" />
-      <workItem from="1745165863003" duration="4218000" />
+      <workItem from="1745165863003" duration="4462000" />
+      <workItem from="1745246625897" duration="967000" />
     </task>
     <servers />
   </component>
@@ -318,7 +321,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/manager/StudentManager.java</url>
-          <line>111</line>
+          <line>114</line>
           <properties class="manager.StudentManager" method="findStudent">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

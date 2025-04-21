@@ -35,6 +35,8 @@ public class StudentManager {
                     break;
                 case 6:
                     orderStudents();
+                case 7:
+                    findOldStudent();
 
 
             }
@@ -50,6 +52,7 @@ public class StudentManager {
                 4. Tələbəni güncəllə
                 5. Tələbəni tap
                 6. GPA uyğun tələbələri sırala
+                7. Ən yaşlı tələbəni tap
                 """);
     }
 
@@ -116,5 +119,13 @@ public class StudentManager {
 
     public void orderStudents(){
         studentService.orderStudents();
+    }
+
+    public void findOldStudent(){
+        if(studentService.getAllStudents().isEmpty()){
+            System.out.println("Heç bir tələbə yoxdur.");
+        }else {
+            studentService.oldStudent();
+        }
     }
 }
